@@ -20,7 +20,7 @@ POST /nfs/directory/:rootPath/:directoryPath
 ##### Example
 
 ```
-http://localhost:8100/nfs/directory/drive/websites/example
+http://localhost:8100/nfs/directory/drive/websites/www-example
 ```
 
 #### Header
@@ -62,7 +62,7 @@ On success, the HTTP status code in the response header is `200` (OK).
 ```js
 var request = require('request');
 
-var endpoint = 'http://localhost:8100/nfs/directory/drive/websites/example';
+var endpoint = 'http://localhost:8100/nfs/directory/drive/websites/www-example';
 var payload = {
   isPrivate: true,
   metadata: new Buffer('sample metadata').toString('base64')

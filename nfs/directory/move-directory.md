@@ -47,7 +47,7 @@ Content-Type: application/json
 	"srcRootPath": "app",
 	"srcPath": "/images",
 	"destRootPath": "drive",
-	"destPath": "/websites/example",
+	"destPath": "/websites/www-example",
 	"action": "move"
 }
 ```
@@ -65,8 +65,8 @@ var endpoint = 'http://localhost:8100/nfs/movedir';
 var payload = {
   srcRootPath: 'app',
   srcPath: '/images',
-  destRootPath: 'app',
-  destPath: '/website',
+  destRootPath: 'drive',
+  destPath: '/websites/www-example',
   action: 'move' // or copy
 };
 

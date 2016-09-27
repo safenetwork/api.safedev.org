@@ -20,7 +20,7 @@ DELETE /nfs/directory/:rootPath/:directoryPath
 ##### Example
 
 ```
-http://localhost:8100/nfs/directory/app/websites/example
+http://localhost:8100/nfs/directory/drive/websites/www-example
 ```
 
 #### Header
@@ -43,7 +43,7 @@ On success, the HTTP status code in the response header is `200` (OK).
 
 ```js
 var request = require('request');
-var endpoint = 'http://localhost:8100/nfs/directory/app/website';
+var endpoint = 'http://localhost:8100/nfs/directory/drive/websites/www-example';
 
 var onResponse = function(err, response, body) {
   if (err) {
