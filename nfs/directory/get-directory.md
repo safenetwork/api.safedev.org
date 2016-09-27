@@ -14,8 +14,8 @@ GET /nfs/directory/:rootPath/:directoryPath
 
 | Parameter | Description |
 | --- | --- |
-| rootPath | Root path of the directory (`app` or `drive`). |
-| directoryPath | Full path of the directory. |
+| rootPath | Which root directory to use (`app` or `drive`). |
+| directoryPath | The full path of the directory. |
 
 ##### Example
 
@@ -43,8 +43,8 @@ On success, the HTTP status code in the response header is `200` (OK).
 
 | Property | Description |
 | --- | --- |
-| info.name | Name of the directory. |
-| info.isPrivate | Boolean value to indicate whether the directory is private or public. |
+| info.name | The name of the directory. |
+| info.isPrivate | Whether the directory is private or public. |
 | info.createdOn | Created timestamp ([ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)). |
 | info.modifiedOn | Last modified timestamp ([ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)). |
 | info.metadata | Metadata associated with the directory (encoded as a base64 string). |

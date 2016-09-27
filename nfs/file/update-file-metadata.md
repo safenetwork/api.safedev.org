@@ -14,8 +14,8 @@ PUT /nfs/file/metadata/:rootPath/:filePath
 
 | Parameter | Description |
 | --- | --- |
-| rootPath | Root path of the file to be updated (`app` or `drive`). |
-| filePath | Full path of the file to be updated. |
+| rootPath | Which root directory to use (`app` or `drive`). |
+| filePath | The full path of the file. |
 
 ##### Example
 

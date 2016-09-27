@@ -14,8 +14,8 @@ POST /nfs/directory/:rootPath/:directoryPath
 
 | Parameter | Description |
 | --- | --- |
-| rootPath | Root path of the directory to be created (`app` or `drive`). |
-| directoryPath | Full path of the directory to be created. |
+| rootPath | Which root directory to use (`app` or `drive`). |
+| directoryPath | The full path of the directory. |
 
 ##### Example
 
@@ -41,7 +41,7 @@ Content-Type: application/json
 
 | Property | Description |
 | --- | --- |
-| isPrivate | A boolean value to indicate whether the directory should be private or public. |
+| isPrivate | Whether the directory should be private or public (`true` or `false`). |
 | metadata | Metadata to be associated with the directory. It should be encoded as a base64 string.<br>This is an optional field. If not specified, it defaults to an empty string. |
 
 ##### Example

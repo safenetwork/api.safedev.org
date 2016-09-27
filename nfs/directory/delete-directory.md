@@ -14,8 +14,8 @@ DELETE /nfs/directory/:rootPath/:directoryPath
 
 | Parameter | Description |
 | --- | --- |
-| rootPath | Root path of the directory to be deleted (`app` or `drive`). |
-| directoryPath | Full path of the directory to be deleted (e.g. `/websites/example`). |
+| rootPath | Which root directory to use (`app` or `drive`). |
+| directoryPath | The full path of the directory. |
 
 ##### Example
 

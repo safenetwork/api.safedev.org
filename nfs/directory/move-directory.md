@@ -34,10 +34,10 @@ Content-Type: application/json
 
 | Property | Description |
 | --- | --- |
-| srcRootPath | Root path of the source directory (`app` or `drive`). |
-| srcPath | Full path of the source directory. |
-| destRootPath | Root path of the destination directory (`app` or `drive`). |
-| destPath | Full path of the destination directory. |
+| srcRootPath | Which root directory to use (`app` or `drive`). |
+| srcPath | The full path of the source directory. |
+| destRootPath | Which root directory to use (`app` or `drive`). |
+| destPath | The full path of the destination directory. |
 | action | Whether to `move` or `copy` the directory. Defaults to `move` if not specified. |
 
 ##### Example

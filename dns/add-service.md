@@ -35,9 +35,9 @@ Content-Type: application/json
 | Property | Description |
 | --- | --- |
 | longName | The long name to which the service is to be added. |
-| serviceName | Name of the service to be added. |
-| rootPath | Root path of the service directory (`app` or `drive`). |
-| serviceHomeDirPath | The full path of the directory to be associated to the service. |
+| serviceName | The name of the service to be added. |
+| rootPath | Which root directory to use (`app` or `drive`). |
+| serviceHomeDirPath | The full path of the home directory to be associated to the service. |
 
 ##### Example
 
