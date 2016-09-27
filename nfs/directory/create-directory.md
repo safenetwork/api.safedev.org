@@ -1,6 +1,6 @@
 # Create directory
 
-Create a public or private directory either in the app's root directory or in SAFE Drive.
+Create a public or private directory either in the app's root directory or in the SAFE Drive of the user.
 
 Only authorized requests can invoke this endpoint.
 

@@ -38,6 +38,7 @@ http://localhost:8100/nfs/directory/app/images/sample.png
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Im5RT1poRFJ2VUFLRlVZMzNiRTlnQ25VbVVJSkV0Q2lmYk4zYjE1dXZ2TlU9In0.OTKcHQ9VUKYzBXH_MqeWR4UcHFJV-xlllR68UM9l0b4
 Content-Type: image/png
 Content-Length: 25607
+Metadata: c2FtcGxlIG1ldGFkYXRh
 ```
 
 #### Body
@@ -74,6 +75,7 @@ fs.createReadStream(localFilePath).pipe(request.post(endpoint, {
   headers: {
     'Content-Type': 'image/png',
     'Content-Length': size,
+    'Metadata': new Buffer('sample metadata').toString('base64')
   },
   auth: {
     bearer: constants.token

@@ -15,7 +15,7 @@ DELETE /nfs/file/:rootPath/:filePath
 | Parameter | Description |
 | --- | --- |
 | rootPath | Which root directory to use (`app` or `drive`). |
-| filePath | The Full path of the file. |
+| filePath | The full path of the file. |
 
 ##### Example
 

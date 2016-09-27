@@ -10,4 +10,4 @@ A directory called `SAFEDrive` can be used to store data that needs to be shared
 
 When an app is authorized by a user for the first time, SAFE Launcher creates an exclusive directory for that app. This is the app’s root directory, and it's sandboxed such that other apps cannot access its content. So if the app wants to create its own configuration files, directories, etc. – which it does not want to share with other apps – it can put them into its dedicated root directory.
 
-Apps can create directories and files in their dedicated root directory or in the SAFE Drive of the user. To access SAFE Drive, the app must be authorized with the `SAFE_DRIVE_ACCESS` permission.
+Apps can create directories and files in their dedicated root directory or in the SAFE Drive of the user. To access `SAFEDrive`, the app must be authorized with the `SAFE_DRIVE_ACCESS` permission.

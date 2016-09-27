@@ -59,7 +59,7 @@ Created-On: 2016-09-27T08:46:26.921Z
 Last-Modified: 2016-09-27T08:46:27.599Z
 Content-Type: image/png
 Content-Length: 25607
-Metadata:
+Metadata: c2FtcGxlIG1ldGFkYXRh
 ```
 
 #### Body

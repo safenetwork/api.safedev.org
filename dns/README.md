@@ -14,5 +14,5 @@ Any user can access public data using the service and the long name (e.g. `www.e
 | --- | --- |
 | longName | A human readable name that can be used for sharing public content (e.g. `example`). |
 | serviceName | A service (e.g. `www`) that can be mapped to a long name (e.g. `example`). |
-| rootPath | An enum representation of the root directory (`app` or `drive`).<br> `app` specifies the app's root directory, while `drive` corresponds to SAFE Drive. |
+| rootPath | An enum representation of the root directory (`app` or `drive`).<br> `app` specifies the app's root directory, while `drive` corresponds to the SAFE Drive of the user. |
 | serviceHomeDirPath | The full path of a home directory (e.g. `/websites/example`) that can be mapped to a service (e.g. `www`). |
