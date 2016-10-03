@@ -1,6 +1,6 @@
 # SAFE API Docs
 
-[SAFE Launcher](https://maidsafe.readme.io/docs/launcher) exposes REST APIs that apps can use to interact with the SAFE Network.
+[SAFE Launcher](https://maidsafe.readme.io/docs/launcher) exposes RESTful API endpoints that apps can use to interact with the SAFE Network.
 
 **[Download SAFE Launcher](https://maidsafe.net/alpha.html)** to use the SAFE API.
 
@@ -31,7 +31,7 @@ Examples of desktop apps:
 
 ### Web apps
 
-Since web pages are supported via a web proxy, the endpoint for accessing the SAFE API should be `http://api.safenet` instead of `http://localhost:8100`.
+Since web pages are supported via a web proxy, the base URL for accessing the SAFE API should be `http://api.safenet` instead of `http://localhost:8100`.
 
 The web proxy injects CSP headers to prevent mixing clearnet with safenet.
 
