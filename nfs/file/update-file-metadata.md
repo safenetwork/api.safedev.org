@@ -42,7 +42,7 @@ Content-Type: application/json
 | Property | Description |
 | --- | --- |
 | name | The new name of the file. |
-| metadata | Metadata to be associated with the file.<br>This is an optional field. If not specified, it defaults to an empty string. |
+| metadata | Metadata to be associated with the file.<br>Defaults to an empty string if not specified. |
 
 ```json
 {

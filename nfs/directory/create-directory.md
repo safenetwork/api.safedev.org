@@ -28,7 +28,7 @@ http://localhost:8100/nfs/directory/drive/websites/www-example
 | Field | Description |
 | --- | --- |
 | Authorization | The [authorization token](/auth) obtained from SAFE Launcher. |
-| Content-Type | The [media type](https://www.iana.org/assignments/media-types/media-types.xhtml) of the request body (`application/json`). |
+| Content-Type | The [media type](https://www.iana.org/assignments/media-types/media-types.xhtml) of the request body (`application/json`).<br>Only include this field if the request body is present. |
 
 ##### Example
 
@@ -39,9 +39,11 @@ Content-Type: application/json
 
 #### Body
 
+The request body is optional.
+
 | Property | Description |
 | --- | --- |
-| isPrivate | Whether the directory should be private or public (`true` or `false`). |
+| isPrivate | Whether the directory should be private or public (`true` or `false`).<br>This is an optional field. If not specified, it defaults to `false`. |
 | metadata | Metadata to be associated with the directory. It should be encoded as a base64 string.<br>This is an optional field. If not specified, it defaults to an empty string. |
 
 ##### Example

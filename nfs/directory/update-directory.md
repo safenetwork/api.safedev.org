@@ -40,7 +40,7 @@ Content-Type: application/json
 | Property | Description |
 | --- | --- |
 | name | The new name of the directory. |
-| metadata | Metadata to be associated with the directory. It should be encoded as a base64 string.<br>This is an optional field. If not specified, it defaults to an empty string. |
+| metadata | Metadata to be associated with the directory. It should be encoded as a base64 string.<br>Defaults to an empty string if not specified. |
 
 ##### Example
 

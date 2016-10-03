@@ -87,7 +87,7 @@ var onResponse = function(err, response, body) {
   console.error('Failed to download file.', body);
 };
 
-var filestream = fs.createWriteStream('./api/sample.png');// local path
+var filestream = fs.createWriteStream('./api/sample.png'); // local path
 request.get(endpoint, {
   auth: {
     bearer: constants.token // pass the auth token
