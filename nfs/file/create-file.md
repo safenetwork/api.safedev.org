@@ -20,7 +20,7 @@ POST /nfs/file/:rootPath/:filePath
 ##### Example
 
 ```
-http://localhost:8100/nfs/directory/app/images/sample.png
+http://localhost:8100/nfs/file/app/images/sample.png
 ```
 
 #### Header
