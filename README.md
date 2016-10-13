@@ -14,7 +14,9 @@ SAFE Launcher enables you to build SAFE Network apps that don't require users to
 
 The SAFE Network is a decentralized data storage and communications network that provides a secure, efficient and no-cost infrastructure for app developers.
 
-Rather than using data centers and servers which are prone to data theft and surveillance, the SAFE Network uses advanced peer-to-peer technology that joins together the spare computing capacity of all SAFE users, creating a global network.
+Rather than using data centers and servers which are prone to data theft and surveillance, the SAFE Network uses advanced peer-to-peer technology that joins together the unused hard drive space, CPU power and Internet connections of all SAFE users, creating a global network.
+
+Users of the SAFE Network have full control over their data, while app developers can focus their time building on top of a secure infrastructure.
 
 ### How do I use the SAFE API?
 
