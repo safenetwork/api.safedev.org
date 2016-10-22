@@ -74,7 +74,6 @@ On success, the HTTP status code in the response header is `200` (OK).
 
 ```js
 var request = require('request');
-
 var endpoint = 'http://localhost:8100/auth';
 
 // authorization payload

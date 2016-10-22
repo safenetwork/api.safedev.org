@@ -28,7 +28,7 @@ http://localhost:8100/nfs/file/app/images/sample.png
 | Field | Description |
 | --- | --- |
 | Authorization | The [authorization token](/auth) obtained from SAFE Launcher. |
-| Range | Partial content of the file can be obtained by specifying the range. The start and end offset can be passed in the range header (e.g `bytes 0-1000`).<br>This is an optional field, if not specified the entire file is streamed to the client. |
+| Range | Partial content of the file can be obtained by specifying the range. The start and end offset can be passed in the range header (e.g `bytes=0-1000`).<br>This is an optional field, if not specified the entire file is streamed to the client. |
 
 ##### Example
 
