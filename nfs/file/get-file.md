@@ -38,7 +38,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Im5RT1poRFJ2VUFLRlVZMzNiRTlnQ
 
 ### Response
 
-On success, the HTTP status code in the response header is `200` (OK).
+On success, if the `Range` header was specified in the request, then the HTTP status code in the response header is `206` (Partial Content). Otherwise, it's `200` (OK).
 
 #### Header
 
