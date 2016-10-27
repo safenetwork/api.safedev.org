@@ -1,10 +1,12 @@
-# SAFE API v0.5 Docs
+# SAFE API Docs
+
+**This documentation is for SAFE API v0.5.**
 
 [SAFE Launcher](https://maidsafe.readme.io/docs/launcher) exposes a REST API that apps can use to interact with the SAFE Network.
 
-**[Download SAFE Launcher](https://maidsafe.net/alpha.html)** to use the SAFE API.
+[Download **SAFE Launcher v0.8.0**](https://github.com/maidsafe/safe_launcher/releases/tag/0.8.0) to use **SAFE API v0.5**.
 
-**[Read the SAFE Dev Tutorials](https://tutorials.safedev.org/)** to see examples of how to use the SAFE API.
+[Read the **SAFE Dev Tutorials**](https://tutorials.safedev.org/) to see examples of how to use the SAFE API.
 
 ### What is SAFE Launcher?
 
