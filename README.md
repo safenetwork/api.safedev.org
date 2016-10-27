@@ -1,4 +1,4 @@
-# SAFE API Docs
+# SAFE API v0.5 Docs
 
 [SAFE Launcher](https://maidsafe.readme.io/docs/launcher) exposes a REST API that apps can use to interact with the SAFE Network.
 
