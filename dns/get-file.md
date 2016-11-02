@@ -29,7 +29,7 @@ http://localhost:8100/dns/www/example/index.html
 | Field | Description |
 | --- | --- |
 | Authorization | The [authorization token](/auth) obtained from SAFE Launcher. |
-| Range | Partial content of the file can be obtained by specifying the range. The start and end offset can be passed in the range header (e.g `bytes 0-1000`).<br>This is an optional field, if not specified the entire file is streamed to the client. |
+| Range | Partial content of the file can be obtained by specifying the range. The start and end offset can be passed in the range header (e.g `bytes=0-1000`).<br>This is an optional field, if not specified the entire file is streamed to the client. |
 
 ##### Example
 
@@ -39,7 +39,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Im5RT1poRFJ2VUFLRlVZMzNiRTlnQ
 
 ### Response
 
-On success, the HTTP status code in the response header is `200` (OK).
+On success, if a `Range` header was specified in the request, then the HTTP status code in the response header is `206` (Partial Content). Otherwise, it's `200` (OK).
 
 #### Header
 
