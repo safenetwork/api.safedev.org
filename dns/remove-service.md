@@ -1,6 +1,6 @@
-# Delete service
+# Remove service
 
-Delete a service from a long name.
+Remove a service from a long name.
 
 Only authorized requests can invoke this endpoint.
 

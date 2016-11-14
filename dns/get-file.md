@@ -65,7 +65,7 @@ Metadata: c2FtcGxlIG1ldGFkYXRh
 
 #### Body
 
-Binary data of the file.
+The binary data of the file.
 
 ### Example
 

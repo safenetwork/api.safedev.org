@@ -2,7 +2,9 @@
 
 [SAFE Launcher](https://maidsafe.readme.io/docs/launcher) exposes a REST API that apps can use to interact with the SAFE Network.
 
-[Download **SAFE Launcher v0.8.0**](https://github.com/maidsafe/safe_launcher/releases/tag/0.8.0) to use **SAFE API v0.5**.
+[Download **SAFE Launcher v0.9.3**](https://github.com/maidsafe/safe_launcher/releases/tag/0.9.3) to use **SAFE API v0.6**.
+
+[Read the **SAFE Dev Tutorials**](https://tutorials.safedev.org/) to see examples of how to use the SAFE API.
 
 ### What is SAFE Launcher?
 
@@ -24,18 +26,16 @@ It's possible to build SAFE Network apps in many environments (e.g. Windows, mac
 
 ### Desktop apps
 
-[**SAFE Demo App v0.6.0**](https://github.com/maidsafe/safe_examples/releases/tag/0.6.0) is an [Electron](http://electron.atom.io/) app built using **SAFE API v0.5**.
+Examples of desktop apps:
+
+* [SAFE Demo App](https://github.com/maidsafe/safe_examples/tree/master/demo_app)
+* [SAFE Mail Tutorial](https://tutorials.safedev.org/email-app/)
 
 ### Web apps
 
-Since web pages are supported via a web proxy, the base URL for accessing the SAFE API should be `http://api.safenet` instead of `http://localhost:8100`.
+To access SAFE websites, you need to use [SAFE Browser](https://github.com/joshuef/beaker/releases). SAFE Browser provides an API that web apps can use to communicate with SAFE Launcher. See the [SAFE-js API Docs](https://github.com/joshuef/safe-js#api) for more info.
 
-The web proxy injects CSP headers to prevent mixing clearnet with safenet.
+Examples of web apps:
 
-Here are the CSP Headers:
-
-```
-default-src 'self' *.safenet; object-src 'none'; base-uri 'self'; form-action http://api.safenet; frame-ancestors *.safenet; child-src *.safenet
-```
-
-This prevents usage of inline JavaScript and CSS which is a restriction at present.
+* [SAFE Comment Tutorial](https://tutorials.safedev.org/website-with-comments/)
+* [SAFE Signaling Demo](https://tutorials.safedev.org/webrtc-video-chat-app/)
