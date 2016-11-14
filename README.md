@@ -4,8 +4,6 @@
 
 [Download **SAFE Launcher v0.8.0**](https://github.com/maidsafe/safe_launcher/releases/tag/0.8.0) to use **SAFE API v0.5**.
 
-[Read the **SAFE Dev Tutorials**](https://tutorials.safedev.org/) to see examples of how to use the SAFE API.
-
 ### What is SAFE Launcher?
 
 SAFE Launcher enables you to build SAFE Network apps that don't require users to give you access to their network credentials (their account secret and account password). This means users only have to share their network credentials with SAFE Launcher and not with every app they use. Apps only interact with the SAFE Network indirectly via SAFE Launcher, which can be thought of as the single point of contact with the network.
@@ -26,10 +24,7 @@ It's possible to build SAFE Network apps in many environments (e.g. Windows, mac
 
 ### Desktop apps
 
-Examples of desktop apps:
-
-* [SAFE Demo App](https://github.com/maidsafe/safe_examples/tree/master/demo_app)
-* [SAFE Mail Tutorial](https://github.com/maidsafe/safe_examples/tree/master/email_app)
+[**SAFE Demo App v0.6.0**](https://github.com/maidsafe/safe_examples/releases/tag/0.6.0) is an [Electron](http://electron.atom.io/) app built using **SAFE API v0.5**.
 
 ### Web apps
 
