@@ -1,5 +1,5 @@
 {
-  "plugins": [ "prism", "-highlight", "collapsible-menu", "edit-link", "versions" ],
+  "plugins": [ "prism", "-highlight", "edit-link", "versions" ],
   "pluginsConfig": {
     "edit-link": {
       "base": "https://github.com/safenetwork/api.safedev.org/tree/master",
