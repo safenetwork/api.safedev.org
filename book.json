@@ -4,6 +4,9 @@
     "edit-link": {
       "base": "https://github.com/safenetwork/api.safedev.org/tree/master",
       "label": ""
+    },
+    "versions": {
+      "type": "tags"
     }
   }
 }
