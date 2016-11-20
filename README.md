@@ -2,7 +2,7 @@
 
 [SAFE Launcher](https://maidsafe.readme.io/docs/launcher) exposes a REST API that apps can use to interact with the SAFE Network.
 
-[Download **SAFE Launcher v0.9.3**](https://github.com/maidsafe/safe_launcher/releases/tag/0.9.3) to use **SAFE API v0.6**.
+[Download **SAFE Launcher v0.10.0**](https://github.com/maidsafe/safe_launcher/releases/tag/0.10.0) to use **SAFE API v0.6**.
 
 [Read the **SAFE Dev Tutorials**](https://tutorials.safedev.org/) to see examples of how to use the SAFE API.
 
@@ -39,3 +39,4 @@ Examples of web apps:
 
 * [SAFE Comment Tutorial](https://tutorials.safedev.org/website-with-comments/)
 * [SAFE Signaling Demo](https://tutorials.safedev.org/webrtc-video-chat-app/)
+* [SAFE Markdown Editor](https://tutorials.safedev.org/markdown-editor/)
