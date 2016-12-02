@@ -33,7 +33,7 @@ Examples of desktop apps:
 
 ### Web apps
 
-To access SAFE websites, you need to use [SAFE Browser](https://github.com/joshuef/beaker/releases). SAFE Browser provides an API that web apps can use to communicate with SAFE Launcher. See the [SAFE-js API Docs](https://github.com/joshuef/safe-js#api) for more info.
+To access SAFE websites, we recommend using [SAFE Browser v0.4.2](https://github.com/joshuef/beaker/releases/tag/v0.4.2). SAFE Browser provides an API that web apps can use to communicate with SAFE Launcher. See the [SAFE-js API Docs](https://github.com/joshuef/safe-js#api) for more info.
 
 Examples of web apps:
 
