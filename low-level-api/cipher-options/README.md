@@ -20,7 +20,7 @@ We use a particular combination of Salsa20 and Poly1305 as specified [here](http
 
 ### Asymmetric
 
-This type of encryption is used when encrypting data for someone else to read. After encrypting data using the public [encryption key](/low-level-api/appendable-data/encryption-key) of someone else, only that person will be able to read it.
+This type of encryption is used when encrypting data for someone else to read. After encrypting data using the public [encryption key](/low-level-api/appendable-data/encryption-key/) of someone else, only that person will be able to read it.
 
 We use a particular combination of Curve25519, Blake2B, Salsa20 and Poly1305 as specified [here](http://docs.maidsafe.net/rust_sodium/master/rust_sodium/crypto/sealedbox/curve25519blake2bxsalsa20poly1305/index.html).
 
